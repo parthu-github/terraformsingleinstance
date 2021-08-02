@@ -1,4 +1,4 @@
-variable "aws_access_key" {}
+ævariable "aws_access_key" {}
 variable "aws_secret_key" {}
 variable "aws_region" {}
 variable "amis" {
@@ -26,7 +26,7 @@ variable Main_Routing_Table {}
 variable "azs" {
   description = "Run the EC2 Instances in these Availability Zones"
   type = "list"
-  default = ["us-east-1a", "us-east-1b", "us-east-1c"]
+  default = ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d"]
 }
 variable "environment" { default = "dev" }
 variable "instance_type" {
